@@ -181,7 +181,7 @@ Build: 1.14.4-28.1.56 - Tue Oct 15 22:01:50 GMT 2019
 		Fix shear sound not playing (#6202)
 
 	ohai.iChun:
-		Fix error logging in FMLUserdevLaunchProvider.setup (#6206)
+		Fix error logging in FMLUserdevLaunchProvider.com.spoonstheutensil.mytutorial.setup (#6206)
 
 	jojohostert:
 		Allow mods actually to have their own usable config gui (#6208)
@@ -419,7 +419,7 @@ Build: 1.14.4-28.1.14 - Sun Sep 22 20:48:40 GMT 2019
 		Fix type bound on GameRegistry.findRegistry being too narrow
 
 	tterrag:
-		Fix jigsaw blocks not mirroring properly
+		Fix jigsaw com.spoonstheutensil.mytutorial.blocks not mirroring properly
 
 	tterrag:
 		Allow modded dimensions to customise World#getSeaLevel
@@ -616,7 +616,7 @@ Build: 1.14.4-28.0.90 - Wed Sep 04 01:51:34 GMT 2019
 =========
 Build: 1.14.4-28.0.88 - Tue Sep 03 21:50:35 GMT 2019
 	6596492+yrsegal:
-		Add collisionExtendsVertically hook to allow modded blocks that extend
+		Add collisionExtendsVertically hook to allow modded com.spoonstheutensil.mytutorial.blocks that extend
 		collision into the block above similar to fences. (#6092)
 
 =========
@@ -778,7 +778,7 @@ Build: 1.14.4-28.0.58 - Thu Aug 29 01:12:54 GMT 2019
 =========
 Build: 1.14.4-28.0.56 - Wed Aug 28 19:59:19 GMT 2019
 	lex:
-		Fix blocks being placed in adventure mode. Closes #6085 Add early error
+		Fix com.spoonstheutensil.mytutorial.blocks being placed in adventure mode. Closes #6085 Add early error
 		for setting invalid world directory. Closes #6084 Fix PlayerTickEvent
 		not firing when dead, even if player isn't removed from world yet.
 		Closes #6074 Fix PlayerDestroyItemEvent not firing for some cases.
@@ -871,7 +871,7 @@ Build: 1.14.4-28.0.40 - Sat Aug 03 01:48:54 GMT 2019
 =========
 Build: 1.14.4-28.0.39 - Sat Aug 03 01:03:37 GMT 2019
 	lex:
-		Fix userdev setup by moving SAS concept to FG.
+		Fix userdev com.spoonstheutensil.mytutorial.setup by moving SAS concept to FG.
 
 =========
 Build: 1.14.4-28.0.38 - Fri Aug 02 21:13:51 GMT 2019
@@ -1020,7 +1020,7 @@ Build: 1.14.4-28.0.16 - Fri Jul 26 01:00:15 GMT 2019
 =========
 Build: 1.14.4-28.0.14 - Wed Jul 24 18:15:36 GMT 2019
 	lex:
-		Fixed missed patch causing blocks to not dropping EXP and BreakEvent to
+		Fixed missed patch causing com.spoonstheutensil.mytutorial.blocks to not dropping EXP and BreakEvent to
 		not fire.
 
 =========
@@ -1116,7 +1116,7 @@ Build: 1.14.3-27.0.58 - Thu Jul 18 21:15:19 GMT 2019
 		of ItemStack. Closes #5944 Add AT for GameRules.register Closes #5946
 		Fix Forge Blockstate loader model path is inconsistent with vanilla
 		blockstates Closes #5892 Fix client crashing when opting not to load a
-		world when there's missing blocks Closes #5886
+		world when there's missing com.spoonstheutensil.mytutorial.blocks Closes #5886
 
 =========
 Build: 1.14.3-27.0.57 - Wed Jul 17 05:38:23 GMT 2019
@@ -1566,7 +1566,7 @@ Build: 1.14.2-26.0.35 - Thu Jun 20 01:10:15 GMT 2019
 		Fix some compile errors in test classes.
 
 	lex:
-		Fix lighting not being sent to client when large amounts of blocks
+		Fix lighting not being sent to client when large amounts of com.spoonstheutensil.mytutorial.blocks
 		change at once. Closes #5839 Remove RecipeType/VanillaRecipeTypes, as
 		1.14 has a vanilla system for this.
 
@@ -1622,7 +1622,7 @@ Build: 1.14.2-26.0.28 - Sun Jun 16 01:35:44 GMT 2019
 =========
 Build: 1.14.2-26.0.25 - Thu Jun 13 02:28:25 GMT 2019
 	lex:
-		Add reverse tag cache, to make looking up tags for items/blocks/etc..
+		Add reverse tag cache, to make looking up tags for items/com.spoonstheutensil.mytutorial.blocks/etc..
 		less costly.
 
 	28928887+marcus8448:
@@ -1643,7 +1643,7 @@ Build: 1.14.2-26.0.22 - Wed Jun 12 23:16:39 GMT 2019
 =========
 Build: 1.14.2-26.0.21 - Wed Jun 12 05:06:33 GMT 2019
 	kashike:
-		Use dragon_immune block tag instead of manually checking blocks (#5792)
+		Use dragon_immune block tag instead of manually checking com.spoonstheutensil.mytutorial.blocks (#5792)
 
 	bonzoweb:
 		Fix RenderSpecificHandEvent firing with wrong hand (#5789)
